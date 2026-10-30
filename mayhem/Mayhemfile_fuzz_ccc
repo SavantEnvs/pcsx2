@@ -1,0 +1,8 @@
+project: savantenvs/pcsx2
+target: fuzz_ccc
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ccc/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ccc
+    libfuzzer: true

@@ -1,0 +1,9 @@
+Format:Score
+FormatType=VALUE
+
+Lookup:Level
+0=Easy
+1=Hard
+
+Display:
+@Level(0xH0001) Score @Score(0xH0004)
